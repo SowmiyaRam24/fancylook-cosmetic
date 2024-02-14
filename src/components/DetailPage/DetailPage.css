@@ -1,0 +1,44 @@
+
+.detail-page {
+    padding: 20px;
+  }
+  
+  .detail-page ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .detail-page li {
+    width: calc(33.33% - 20px); 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .detail-page img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+  }
+  
+  .detail-page p {
+    margin: 5px 0;
+  }
+  
+  .detail-page button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .detail-page button:hover {
+    background-color: #0056b3;
+  }
+  
